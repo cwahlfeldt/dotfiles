@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "coc-css": ">=1.2.4",
+    "coc-dictionary": ">=1.2.2",
+    "coc-fzf-preview": ">=0.4.9",
+    "coc-html": ">=1.2.4",
+    "coc-json": ">=1.2.6",
+    "coc-phpls": ">=2.1.10",
+    "coc-tsserver": ">=1.5.4",
+    "coc-word": ">=1.2.2"
+  }
+}
