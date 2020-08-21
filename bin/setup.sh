@@ -24,9 +24,9 @@ mkdir ~/terminus && cd ~/terminus
 curl -L https://github.com/pantheon-systems/terminus/releases/download/$(curl --silent "https://api.github.com/repos/pantheon-systems/terminus/releases/latest" | perl -nle'print $& while m{"tag_name": "\K.*?(?=")}g')/terminus.phar --output terminus
 chmod +x terminus
 sudo ln -sf ~/terminus/terminus /usr/local/bin/terminus
-cd ~
 
 echo "Symlink Config"
+cd ~/dotfiles
 ln -sf ./.zshrc ~/.zshrc
 ln -sf ./init.vim ~/init.vim
 ln -sf ./kitty.conf ~/kitty.conf
